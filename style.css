@@ -1,0 +1,136 @@
+/*  http://127.0.0.1:5500/ URL para ver el funcionamiento del encriptado*/
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+    font-size: 32px;
+    line-height: 150%;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+body {
+   
+    background-image: url("imagenes/noche.png");
+    
+}
+
+header{
+    width:100% ;
+    height:50PX;
+   
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+} 
+
+.input-texto {
+    display:inline-block;
+    resize: none;
+    margin-inline-start: 50px;
+    text-align: center;
+    margin-top: 90px;
+    background-color:  rgb(188, 192, 207);
+    margin-left:5px;
+    margin-right: 10px;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #0f132d; 
+    width: 800px;
+    column-width: 20;
+    
+}
+
+.mensaje {
+    position: relative;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-right:100px;
+    padding: 100px 100px;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: 500px;
+    background-color:  rgb(188, 192, 207);
+    margin-top: 5px;
+
+}
+
+.copiar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    color: rgb(15, 15, 148);
+    padding: 25px 120px;
+    border-radius: 100px;
+    border: 2px solid #0016b0; 
+    margin-top: 80px;
+    cursor: pointer;
+   
+}
+
+.copiar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+
+  }
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-bottom: 30%;
+    text-align: center;
+  
+}
+
+.encriptar {
+    background-color: white;
+    color: rgb(15, 15, 148);
+    margin-left: 100px;
+    padding: 25px 100px;
+    border-radius: 100px;
+    border: 2px solid #0016b0; 
+    margin-top: 60px;
+    cursor: pointer;
+   
+}
+
+.encriptar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.desencriptar {
+    
+    margin-left: 100px;
+    color: rgb(15, 15, 148);
+    padding: 25px 70px;
+    border-radius: 100px;
+    border: 2px solid #0016b0; 
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+
+.desencriptar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+footer{
+    width:100% ;
+    height:50PX;
+    text-align: center;
+    color:white;
+}
